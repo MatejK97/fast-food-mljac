@@ -1,0 +1,374 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+/**********************************************************
+  Map
+
+  1. Main Menu
+
+  2. Main Image (Naslovna page)
+  2.1 2nd image on Naslovna page
+	
+  3. 2nd page (Jelovnik)
+	
+  4. 3rd page (O Nama)
+
+  5. 4th page (Kontakt)
+
+  6. Footer
+
+  7. Responsive
+
+ **********************************************************/
+
+/**********************************************************
+  1.Main Menu
+ **********************************************************/
+
+.divNavWrap {
+  position: absolute;
+  background: rgba(250, 250, 250, 0.3);
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar {
+  padding: 25px 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #fabc09 !important;
+}
+
+.nav-item {
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #25bea0 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+/**********************************************************
+  2.Main Image (Naslovna page)
+ **********************************************************/
+
+.divMainWrap {
+  background-image: url("img/main.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.divTextAling {
+  text-align: center;
+}
+
+.divMainPart1 {
+  padding-top: 240px;
+  color: #25bea0;
+}
+
+.divMainPart2 {
+  font-size: 60px;
+  color: white;
+}
+
+.divKontakt {
+  padding-top: 100px;
+}
+
+#idTelefon {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+#idTelefon span {
+  color: #25bea0;
+}
+
+.divKontakt2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/**********************************************************
+  2.1 2nd image on Naslovna page
+ **********************************************************/
+
+.divProizvodi {
+  background-image: url("img/sub-img2.jpg");
+  height: 700px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 165px;
+}
+
+#pYellow {
+  margin-bottom: 0;
+  color: #fabc09;
+  font-weight: 600;
+}
+
+.divCash {
+  color: #fabc09;
+}
+#idMarginBottom {
+  margin-bottom: 35px;
+}
+
+.btn-primary {
+  background-color: #fabc09;
+  border-color: #fabc09;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #facc43;
+  border-color: #facc43;
+}
+
+.divFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divDostava {
+  flex: 50%;
+}
+
+.divSlika {
+  flex: 50%;
+  width: 100%;
+}
+
+.divRadno {
+  flex: 50%;
+}
+
+.divRadno p span {
+  color: #25bea0;
+  font-weight: 800;
+}
+
+.divFood1 {
+  flex: 23%;
+  /*padding-right: 5%;
+	padding-left: 5%;*/
+}
+
+.divMiddleItem {
+  margin-right: -10%;
+  margin-left: -10%;
+}
+
+.divLokacija {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.divLokacija p span {
+  color: #25bea0;
+  font-weight: 800;
+}
+
+.divMapa {
+  flex: 1 0 0%;
+}
+
+/**********************************************************
+  3. 2nd page (Jelovnik)
+ **********************************************************/
+
+.divMainWrap2 {
+  background-image: url("img/jelovnik-img.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.divTextHeight {
+  padding-top: 250px;
+  color: #fff;
+}
+
+.divJelovnik {
+  padding-top: 50px;
+}
+
+.pPaddingBottom {
+  padding-bottom: 50px;
+}
+
+/**********************************************************
+  4. 3rd page (O Nama)
+ **********************************************************/
+
+.divOnamaWrap {
+  background-image: url("img/onama.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.divAboutUsWrap {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.divNewsWrap {
+  background-color: #fabc09;
+  padding-bottom: 50px;
+}
+.katiniKolaci {
+  text-decoration: none;
+  color: #fabc09;
+}
+
+.katiniKolaci:hover {
+  color: #facc43;
+}
+.facebook {
+  text-decoration: none;
+}
+
+.ColVijesti {
+  width: 30%;
+  float: left;
+  margin-right: 2%;
+}
+
+.colH2 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.colP {
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+
+/**********************************************************
+  5. 4th page (Kontakt)
+ **********************************************************/
+
+.divKontaktWrap {
+  background-image: url("img/jelovnik-img.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.divContantFormWrap {
+  padding: 50px 0;
+}
+
+.redStar {
+  color: red;
+}
+
+#greenText {
+  color: #25bea0;
+}
+
+/**********************************************************
+  6. Footer
+ **********************************************************/
+
+.divFooter {
+  background-color: lightgray;
+  height: 100px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.footerLinks a:hover {
+  color: #25bea0;
+}
+
+.divAlign {
+  text-align: center;
+  padding-top: 39px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+/**********************************************************
+  7. Responsive
+ **********************************************************/
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+
+@media screen and (max-width: 650px) {
+  .colSize {
+    font-size: 1em;
+  }
+  .divNaslov {
+    margin-left: 15%;
+  }
+  .ColVijesti {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 550px) {
+  .divMapa iframe {
+    width: 400px;
+  }
+}
